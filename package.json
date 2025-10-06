@@ -1,0 +1,15 @@
+{
+  "name": "config-validator",
+  "version": "1.0.0",
+  "description": "\"A robust configuration loader that wraps dotenv to provide mandatory, secure validation for critical environment variables. Ensures your application fails fast if any essential secrets (like DATABASE_URL or API_KEY) are missing.",
+  "license": "ISC",
+  "author": "John Spriggs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
