@@ -1,5 +1,5 @@
 {
-  "name": "config-validator",
+  "name": "@spriggs81/config-validator",
   "version": "1.0.0",
   "description": "\"A robust configuration loader that wraps dotenv to provide mandatory, secure validation for critical environment variables. Ensures your application fails fast if any essential secrets (like DATABASE_URL or API_KEY) are missing.",
   "license": "ISC",
