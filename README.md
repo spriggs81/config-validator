@@ -1,4 +1,4 @@
-# @spriggs81/config-validator
+# @mylilapps/config-validator
 A robust, single-package solution for Node.js that wraps dotenv to enforce mandatory validation of critical environment variables. Ensure your application fails fast and clearly if essential secrets are missing or empty.
 
 ## Why Use This?
@@ -9,7 +9,7 @@ This module enforces Developer Discipline by loading your .env file and checking
 ## Installation
 This module sub-depends on the official dotenv library.
 ```
-npm install @spriggs81/config-validator
+npm install @mylilapps/config-validator
 ```
 ## Quick Start (ESM Example)
 ### 1. Create a .env File
@@ -24,7 +24,7 @@ In your main entry file (server.js or index.js), you define an array of variable
 ```
 // server.js or your application entry point
 
-import { loadAndValidateConfig } from '@spriggs81/config-validator';
+import { loadAndValidateConfig } from '@mylilapps/config-validator';
 
 // --- Define the keys required for your application to run ---
 const REQUIRED_KEYS = [
